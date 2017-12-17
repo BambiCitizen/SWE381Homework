@@ -25,15 +25,15 @@
         $first[2] = "two";
         $first[3] = "three";
         for($i = 0; $i<count($first); ++$i)
-        print("<p>Element $i is $first[$i] </p>");
+        print("Element $i is $first[$i] </p>");
 
 
         // The second Array By Abdulaziz Alrowaished
 
-        print("<p class='head'>Creating a Second Array</p>")
+        print("<p class='head'>Creating a Second Array</p>");
         $second=array("zero","one","two","three");
-        for($i=0;i<count($second);++$i)
-            print("Element $i is $second[$i]</p>")
+        for($i=0;$i<count($second);++$i)
+            print("Element $i is $second[$i]</p>");
 
     ?>
 
